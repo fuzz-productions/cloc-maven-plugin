@@ -10,18 +10,15 @@ Please download and build the source to be able to use it
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run the plugin you must have `pear` installed and it must be in `$PATH`
 
-```
-pear must be in $PATH
-```
 
 ### Installing
 
 #### Simple usage:
 
-```$xslt
-mvn com.vvezani:cloc-maven-plugin:0.1.0-SNAPSHOT:analyze
+```
+mvn com.vvezani:cloc-maven-plugin:0.1.1-SNAPSHOT:analyze
 ```
 
 #### Plugin configuration
@@ -32,7 +29,7 @@ To use the plugin integrated in your build - execute the `analyze` goal as follo
 <plugin>
   <groupId>com.vvezani</groupId>
   <artifactId>cloc-maven-plugin</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <executions>
     <execution>
       <!-- whatever phase you want -->
@@ -48,7 +45,7 @@ To use the plugin integrated in your build - execute the `analyze` goal as follo
 Result:
 
 ```$xslt
-[INFO] --- cloc-maven-plugin:0.1.0-SNAPSHOT:analyze (default) @ springboot-redis-cache ---
+[INFO] --- cloc-maven-plugin:0.1.1-SNAPSHOT:analyze (default) @ springboot-redis-cache ---
       38 text files.
       37 unique files.                              
       14 files ignored.
