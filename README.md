@@ -10,7 +10,7 @@ Please download and build the source to be able to use it
 
 ### Prerequisites
 
-To run the plugin you must have `pear` installed and it must be in `$PATH`
+To run the plugin you must have `perl` installed and it must be in `$PATH`
 
 
 ### Installing
